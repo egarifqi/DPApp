@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dpapp"
+        android:label="Dinamika Partikel App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HukumNewtonActivity" />
+        <activity android:name=".GayaActivity" />
+        <activity android:name=".PenerapanActivity" />
+        <activity android:name=".SoalActivity" />
+        <activity android:name=".Hukum1Activity" />
+        <activity android:name=".Hukum2Activity" />
+        <activity android:name=".Hukum3Activity" />
+        <activity android:name=".GayaBeratActivity" />
+        <activity android:name=".GayaNormalActivity" />
+        <activity android:name=".GayaGesekActivity" />
+        <activity android:name=".GayaTeganganTaliActivity" />
+        <activity android:name=".GayaSentripetalActivity" />
+        <activity android:name=".BidangDatarActivity" />
+        <activity android:name=".BersebelahanActivity" />
+        <activity android:name=".BidangMiringActivity" />
+        <activity android:name=".KatrolActivity" />
+        <activity android:name=".LiftActivity" />
+        <activity android:name=".MenikungActivity" />
+        <activity android:name=".MelingkarActivity" />
+        <activity android:name=".Q1Activity" />
+        <activity android:name=".Q2Activity" />
+        <activity android:name=".Q3Activity" />
+        <activity android:name=".Q4Activity" />
+        <activity android:name=".Q5Activity" />
+        <activity android:name=".Q6Activity" />
+        <activity android:name=".Q7Activity" />
+        <activity android:name=".Q8Activity" />
+        <activity android:name=".Q9Activity" />
+        <activity android:name=".Q10Activity" />
+        <activity android:name=".StartQuizActivity" />
+        <activity android:name=".Soal2Activity" />
+        <activity android:name=".FinishActivity" />
+        <activity android:name=".Soal3Activity" />
+        <activity android:name=".Soal4Activity" />
+        <activity android:name=".ScoreboardActivity" />
+        <activity android:name=".Soal5Activity" />
+        <activity android:name=".Soal6Activity" />
+        <activity android:name=".Soal7Activity" />
+        <activity android:name=".Soal8Activity" />
+        <activity android:name=".Soal9Activity" />
+        <activity android:name=".Soal10Activity" />
+        <activity android:name=".Soal11Activity"></activity>
+    </application>
+
+</manifest>
